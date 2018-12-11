@@ -26,7 +26,7 @@ msg = Message('Đơn xin nghỉ làm ',to='nguyencuong.hust6108@gmail.com',text=
 
 if now.hour >= 7:
     gmail.send(msg)
-    break
+    
 else:
     print("Tôi không nhận đơn trước 7h sáng")
 
